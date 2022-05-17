@@ -1,6 +1,6 @@
-const currentUser = '${name}'
+const currentUser = 'name'
 
-const welcomeMessage = 'Welcome to Flatbook, ${name}!'
+const welcomeMessage = `Welcome to Flatbook, ${currentUser}!`
 
 const excitedWelcomeMessage = welcomeMessage.toUpperCase();
 
